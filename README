@@ -1,0 +1,36 @@
+PrettyAccesibleForm
+===================
+
+This creates a form tag to implement A List Aparts "Prettier Accessible Forms"
+http://alistapart.com/articles/prettyaccessibleforms
+
+You will need to include the stylesheet; you may consider using the
+stylesheet_plugin from
+http://machinesmonstersandmadness.com/svn/plugins/trunk/stylesheet_include.
+for this.
+
+== Installation
+
+script/plugin http://machinesmonstersandmadness.com/svn/plugins/trunk/pretty_accessible_form
+
+== Usage
+
+Here's an example usage:
+  <% pa_form_for( :contact,:url => { :action => :contact_form }, :legend => "Contact Us") do |f| %>
+   <%= f.text_field :name %>
+   <%= f.text_field :email, :legend => "Email Address" %>
+   <%= f.text_area :message, :legend => "Your Message" %>
+   <%= f.submit "Contact Us" %>
+ <% end %>
+
+== Credits
+
+Original idea from A List Aparts "Prettier Accessible Forms"
+http://alistapart.com/articles/prettyaccessibleforms
+
+Rails implementation of pretty_accessible_form is copyright 2007, 2008 by Matt Williams
+
+For more information contact matt@aetherical.com.
+
+== License
+This is covered under a MIT License.

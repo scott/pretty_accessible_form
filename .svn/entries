@@ -1,0 +1,100 @@
+8
+
+dir
+84
+https://vertster.svn.beanstalkapp.com/vertsterapp/trunk/vendor/plugins/pretty_accessible_form
+https://vertster.svn.beanstalkapp.com/vertsterapp
+
+
+
+2008-02-26T02:35:49.852889Z
+2
+scott
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c6f6ec2b-92a7-4816-ad3f-044bdafc74b4
+
+README
+file
+
+
+
+
+2008-05-07T18:42:31.000000Z
+718f783abc635ab3cdca8e9614833ffe
+2008-02-26T02:35:49.852889Z
+2
+scott
+
+Rakefile
+file
+
+
+
+
+2008-05-07T18:42:30.000000Z
+0e50ddf4dfcfa96d60287dda45bf897d
+2008-02-26T02:35:49.852889Z
+2
+scott
+
+init.rb
+file
+
+
+
+
+2008-05-07T18:42:31.000000Z
+12986f136ab442338b9f439e5363c089
+2008-02-26T02:35:49.852889Z
+2
+scott
+
+install.rb
+file
+
+
+
+
+2008-05-07T18:42:31.000000Z
+db088e2fa00282f949e796e0511d52cc
+2008-02-26T02:35:49.852889Z
+2
+scott
+
+lib
+dir
+
+public
+dir
+
+tasks
+dir
+
+test
+dir
+
+uninstall.rb
+file
+
+
+
+
+2008-05-07T18:42:31.000000Z
+2a5fc883fe7f8dfe22ced24643d59ad4
+2008-02-26T02:35:49.852889Z
+2
+scott
+
